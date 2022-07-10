@@ -1,0 +1,17 @@
+h1, p {
+  font-family: Lato;
+}
+.home:hover{
+  animation-name: kilby;
+  animation-duration: 3s;
+  transform-origin:  50% 50%;
+  transform: ;
+}
+@keyframes  kilby{
+0% {
+  transform: rotate(0);
+}
+100% {
+  transform: rotate(360deg);
+}
+}
