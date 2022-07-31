@@ -1,7 +1,14 @@
 h1, p {
   font-family: Lato;
 }
+#space{
+  padding: 10px 10px 10px 10px;
+}
 .home:hover{
+  margin-top: px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
   animation-name: kilby;
   animation-duration: 3s;
   transform-origin:  50% 50%;
@@ -11,7 +18,13 @@ h1, p {
 0% {
   transform: rotate(0);
 }
+0%, 100%{
+  background: repeating-linear-gradient(red, blue, green);
+}
 100% {
   transform: rotate(360deg);
 }
+}
+.kilby{
+  border-radius: 50%;
 }

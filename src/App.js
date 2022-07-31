@@ -5,11 +5,20 @@ import React from "react";
     
     export default function App() {
       return (
+        
         <div>
-          <div><FaHome class="home"/></div>
-          <audio controls>
-            
-            </audio>
+          
+                    
+                      <audio controls>
+                        </audio>
+                      
+            <div>
+              <div id={"space"} />
+          <div className=""><FaHome className="home"/></div>
+  
+            </div>
+    
         </div>
+        
       );
-    }
+  }
