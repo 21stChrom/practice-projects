@@ -6,7 +6,7 @@ import React from "react";
     export default function App() {
       return (
         
-        <div>
+        <div className="cover">
           <h1 style={{color: "transparent"}}>
           "Don't let anyone, ever make you feel like you don't deserve what you want."</h1>
                <audio controls>     
