@@ -6,15 +6,15 @@ h1, p {
 }
 .home:hover{
   margin-top: px;
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   animation-name: kilby;
   animation-duration: 3s;
   transform-origin:  50% 50%;
   transform: ;
 }
-.abcme{
+{
   margin-left: 22px;
   color: cornflowerblue;
 }
@@ -26,12 +26,12 @@ audio{
   display: flex;
   border-radius: 20%;
   border: 4px solid cornflowerblue;
-  box-shadow: 1px 1px 10px 10px red;
+  box-shadow: 1px 1px 10px 10px cornflowerblue;
 }
 .cover{
-  width: 100vw;
-  height: 100vw;
-  background-color: black;
+  width: 100%;
+  height: 100%;
+  background-color: ;
 }
 @keyframes  kilby{
 0% {
@@ -47,3 +47,37 @@ audio{
 .kilby{
   border-radius: 50%;
 }
+
+.box:before {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-45deg, #E85C90 0%, #58EFEC 100% );
+  transform: translate3d(0px, 20px, 0) scale(0.95);
+  filter: blur(20px);
+  opacity: var(0.7);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+
+/* 
+* Prevents issues when the parent creates a 
+* stacking context. (For example, using the transform
+* property )
+*/
+.box::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+      
