@@ -4,7 +4,13 @@ h1, p {
 #space{
   padding: 10px 10px 10px 10px;
 }
+.home{
+z-index: 1;
+}
+
+
 .home:hover{
+  z-index: ;
   align-items: center;
   height: 35px;
   width: 35px;
