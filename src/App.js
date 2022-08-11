@@ -10,20 +10,35 @@ import React from "react";
       return (
         
         <div className="cover">
+          <div className="wrapper">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+  <div>Four</div>
+  <div>Five</div>
+</div>
+
           <div className="box">
-          <h1 style={{color: "transparent"}}>
-         </h1>
+          
+         
           </div>
-               <audio className="audio" controls>     
-          <source src="https://cdn.jsdelivr.net/gh/21stChrom/practice-projects@main/src/Juice%20WRLD%20-%20Traumatized%20(%20Lyrics%20)%20[%20Unreleased%20]%20[%20Prod.%20by%20RockyRoadz%20]%20__%20Vibe%20Alone%20[720p].mp3" type="audio/mpeg" />
-          </audio>
-                      
-            <div>
-              <div id={"space"} />
+              
+            <div>.space
+              <div id={"space"} >
+                <input type="" />
               </div>
-          <div className="abcme">
-            <FaHome className="home"/>
-            </div>
+             more space </div>
+          
+        
+              <div className="audio">
+               <audio className="audio" controls> .   
+               <source src="https://cdn.jsdelivr.net/gh/21stChrom/practice-projects@main/src/Juice%20WRLD%20-%20Traumatized%20(%20Lyrics%20)%20[%20Unreleased%20]%20[%20Prod.%20by%20RockyRoadz%20]%20__%20Vibe%20Alone%20[720p].mp3" type="audio/mpeg" />
+          </audio>
+             </div>   
+             <button >
+        <span className="home"><FaHome /></span>
+              </button> 
+            
         </div>
         
       );
