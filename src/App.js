@@ -8,7 +8,10 @@ import React from "react";
     
     export default function App() {
       return (
-        
+        <div>
+          <head>
+            <title>AppIcon TimeCounter</title>
+            </head>
         <div className="cover">
           <div className="wrapper">
   <div>One</div>
@@ -40,6 +43,6 @@ import React from "react";
               </button> 
             
         </div>
-        
+        </div>
       );
   }
