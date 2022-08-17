@@ -27,7 +27,7 @@ import React from "react";
               <div id={"space"} >
                 <input type="" />
               </div>
-             more space </div>
+             space </div>
           
         
               <div className="audio">
