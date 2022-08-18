@@ -14,11 +14,11 @@ import React from "react";
             </head>
         <div className="cover">
           <div className="wrapper">
-  <div>One</div>
-  <div>Two</div>
-  <div>Three</div>
-  <div>Four</div>
-  <div>Five</div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
 </div>
 
           <div className="box">
@@ -26,11 +26,11 @@ import React from "react";
          
           </div>
               
-            <div>.space
+            <div>
               <div id={"space"} >
                 <input type="" />
               </div>
-             space </div>
+              </div>
           
         
               <div className="audio">
