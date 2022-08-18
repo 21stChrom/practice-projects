@@ -34,7 +34,12 @@ import React from "react";
           
         
               <div className="audio">
-               <audio className="audio" controls> .   
+               <audio className="audio" controls> 
+               <source src="https://cdn.jsdelivr.net/gh/21stChrom/practice-projects@main/src/Juice%20WRLD%20-%20Traumatized%20(%20Lyrics%20)%20[%20Unreleased%20]%20[%20Prod.%20by%20RockyRoadz%20]%20__%20Vibe%20Alone%20[720p].mp3" type="audio/mpeg" />  
+               </audio>
+               </div>
+               <div>
+               <audio className="audio" controls>  
                <source src="https://cdn.jsdelivr.net/gh/21stChrom/practice-projects@main/src/Juice%20WRLD%20-%20Traumatized%20(%20Lyrics%20)%20[%20Unreleased%20]%20[%20Prod.%20by%20RockyRoadz%20]%20__%20Vibe%20Alone%20[720p].mp3" type="audio/mpeg" />
           </audio>
              </div>   
