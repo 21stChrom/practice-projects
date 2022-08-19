@@ -10,7 +10,7 @@ import React from "react";
       return (
         <div>
           <head>
-            <title>AppIcon TimeCounter</title>
+            <title>21stChrom Apps</title>
             </head>
         <div className="cover">
           <div className="wrapper">

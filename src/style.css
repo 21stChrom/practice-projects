@@ -5,7 +5,7 @@ h1, p {
   font-family: Lato;
 }
 #space{
-  border: 1px solid blue;
+  border:;
   padding: 10px 10px 10px 10px;
 }
 .home{
@@ -30,7 +30,7 @@ button:active {
   border-radius: 50%;
   animation-name: kilby;
   filter: blur();
-  box-shadow: 0px 1px 10px 10px #58EFEC;
+  box-shadow:;
   animation-duration: 3s;
   transform-origin:  50% 50%;
   transform: ;
