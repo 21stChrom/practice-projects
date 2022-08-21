@@ -1,10 +1,12 @@
 h1, p {
+  overflow: hidden; 
   border: 1px solid black;
   z-index: 2;
   color: blueviolet;
   font-family: Lato;
 }
 #space{
+  overflow: hidden; 
   border:;
   padding: 10px 10px 10px 10px;
 }
@@ -36,17 +38,22 @@ button:active {
   transform: ;
 }
 .wrapper {
+  
   display: grid;
   grid-template-columns: 100px 100px 100px;
 }
-
+.bb{
+   
+}
 .abcme{
+  
   border: 1px solid black;
   z-index: 2;
   display: ;
   align-items: center;
 }
 audio{
+  overflow: hidden; 
   height: 55px;
   width:;
   padding-left:;
@@ -63,14 +70,15 @@ border-bottom-right-radius: 15%;
   box-shadow: 0px 1px 10px 10px;
 }
 .cover, .box{
+  overflow: hidden; 
   display: grid;
   grid-template-columns: repeat(1, 100px);
   border: 2px solid black;
   border-radius: 20%;
   box-shadow: 0px 5px 25px 22px;
   align-items: center;
-  width: 420px;
-  height: 555px;
+  width: 100vw;
+  height: 100vh;
   background-color:;
   
 }

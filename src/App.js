@@ -8,10 +8,8 @@ import React from "react";
     
     export default function App() {
       return (
-        <div>
-          <head>
-            <title>21stChrom Apps</title>
-            </head>
+        <div class="bb">
+        
         <div className="cover">
           <div className="wrapper">
   <div></div>
