@@ -1,7 +1,4 @@
 
-import { connect } from 'react-redux';
-import JPlayer from 'react-jplayer';
-import AudioPlayer from "./AudioPlayer/AudioPlayer";
 import React from "react";
     import "./style.css";
     import {FaHome} from '@react-icons/all-files/fa/FaHome';
