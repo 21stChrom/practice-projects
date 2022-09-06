@@ -22,7 +22,7 @@ export default function App() {
         </div>
 
         <div className="audio">
-          <audio className="audio" controls>
+          <audio className="audio" loop controls>
             <source
               src="https://cdn.jsdelivr.net/gh/21stChrom/practice-projects@main/src/Juice%20WRLD%20-%20I%20Hate%20Wasting%20Time%20%20%20(Unreleased)%20[prod.%20dfk]%20[720p].mp3"
               type="audio/mpeg"
@@ -30,7 +30,7 @@ export default function App() {
           </audio>
         </div>
         <div>
-          <audio className="audio" controls>
+          <audio className="audio" loop controls>
             <source
               src="https://cdn.jsdelivr.net/gh/21stChrom/practice-projects@main/src/Juice%20WRLD%20-%20Traumatized%20(%20Lyrics%20)%20[%20Unreleased%20]%20[%20Prod.%20by%20RockyRoadz%20]%20__%20Vibe%20Alone%20[720p].mp3"
               type="audio/mpeg"
