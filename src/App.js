@@ -1,6 +1,18 @@
-import React from 'react';
+import React from "react";
+import openai from 'openai';
 import './style.css';
 import { FaHome } from '@react-icons/all-files/fa/FaHome';
+
+async function generateText(prompt) {
+  const response = await openai.completions.create({
+      engine: 'davinci',
+          prompt: prompt,
+              max_tokens: 100,
+                  n: 1,
+                      stop: '.',
+                        });
+                          return response.choices[0].text;
+                          }
 
 export default function App() {
   return (
